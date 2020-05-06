@@ -17,6 +17,7 @@ import java.util.Scanner;
 public class CatalogFileLoader implements CatalogLoader {
 
     private String fileName;
+
     public CatalogFileLoader(String fileName) {
         this.fileName = fileName;
     }

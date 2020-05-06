@@ -5,6 +5,7 @@ import ru.billing.exceptions.ItemAlreadyExistsException;
 import ru.billing.stocklist.Category;
 import ru.billing.stocklist.GenericItem;
 import ru.billing.stocklist.ItemCatalog;
+
 import java.io.IOException;
 import java.util.Date;
 
@@ -18,7 +19,6 @@ public class Main {
         GenericItem c = new GenericItem("C", 3f, Category.DRESS);
         GenericItem d = new GenericItem("D", 4f, Category.GENERAL);
         GenericItem f = new GenericItem("F", 5f, Category.FOOD);
-
 
 
         ItemCatalog itCat = new ItemCatalog();
